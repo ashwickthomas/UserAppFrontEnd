@@ -15,6 +15,7 @@ export default function AddUser() {
     const state = registeredUser;
     state[e.target.name] = e.target.value;
     setRegisteredUser({...state})
+     console.log("state changed");
 
  }
 
